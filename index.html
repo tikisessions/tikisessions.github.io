@@ -1,6 +1,5 @@
 <!doctype html>
-<html class="no-js" lang="">
-    <head>
+<html class="no-js" lang=""> <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <title>Tiki Sessions</title>
@@ -9,9 +8,9 @@
         <meta property="og:image" content="https://tikisessions.github.io/bg.jpeg" />
         <link rel="apple-touch-icon" href="icon.png">
 
-        <link rel="stylesheet" href="/css/normalize.css">
-        <link rel="stylesheet" href="/css/main.css">
-        <link rel="stylesheet" href="/css/jquery-ui.min.css">
+        <link rel="stylesheet" href="./css/normalize.css">
+        <link rel="stylesheet" href="./css/main.css">
+        <link rel="stylesheet" href="./css/jquery-ui.min.css">
         <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
     </head>
     <body>
@@ -47,17 +46,19 @@
                                 <input name="Email" placeholder="Email" type="email" required />
                             </div>
 
-							<div class="form-field">
-								<label><i class="fas fa-dollar-sign"></i></label>
+							<ul>
+								<li>
+									<input name="Mesa-Entrada" id="entrada" type="radio" value="Entrada">
+									<label for="entrada">Entrada</label>
+									<div class="check"></div>
+								</li>
 
-								<input name="Mesa-Entrada" type="radio" value="Mesa">
-								<label for="f-option">Mesa</label>
-								<div class="check"></div>
-
-								<input name="Mesa-Entrada" type="radio" value="Entrada">
-								<label for="f-option">Mesa</label>
-								<div class="check"></div>
-							</div>
+								<li>
+									<input name="Mesa-Entrada" id="mesa" type="radio" value="Mesa">
+									<label for="mesa">Mesa</label>
+									<div class="check"></div>
+								</li>
+							</ul>
 
                             <div class="form-field">
                                 <label><i class="fas fa-ticket-alt"></i></label>
@@ -85,7 +86,7 @@
             </div>
         </div>
         <script defer src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-        <script defer src="/js/jquery-ui.min.js"></script>
-        <script defer src="/js/main.js"></script>
+        <script defer src="./js/jquery-ui.min.js"></script>
+        <script defer src="./js/main.js"></script>
     </body>
 </html>
