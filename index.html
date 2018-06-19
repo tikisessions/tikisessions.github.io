@@ -1,33 +1,64 @@
 <!doctype html>
 <html class="no-js" lang="">
-	<head>
-		<meta charset="utf-8">
-		<meta http-equiv="x-ua-compatible" content="ie=edge">
-		<title>Edep Oficial</title>
-		<meta name="description" content="">
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		<link rel="apple-touch-icon" href="icon.png">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Tiki Sessions</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta property="og:image" content="https://tikisessions.github.io/bg.jpeg" />
+        <link rel="apple-touch-icon" href="icon.png">
 
-		<link rel="stylesheet" href="css/normalize.css">
-		<link rel="stylesheet" href="css/main.css">
-		<link rel="stylesheet" href="css/jquery-ui.min.css">
-		<link rel="stylesheet" href="css/jquery-ui.structure.min.css">
-		<link rel="stylesheet" href="css/jquery-ui.theme.min.css">
-		<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
-	</head>
-	<body>
+        <link rel="stylesheet" href="/css/normalize.css">
+        <link rel="stylesheet" href="/css/main.css">
+        <link rel="stylesheet" href="/css/jquery-ui.min.css">
+        <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    </head>
+    <body>
 
-		<div id="page-wrapper">
-			<div class="row container-fluid">
-				<img src="/graduationgala/bg.jpeg" alt="Graduation Gala" />
-			</div>
-		</div>
+        <div id="page-wrapper">
+            <div class="row container-fluid">
+                <div class="two-col">
+                    <div class="img-left">
+                        <img src="./images/bg.jpeg" alt="Tiki Sessions" />
+                        <p>
+							
+                        </p>
+                    </div>
+                    <div class="form-container">
+                        <form class="form survey" action="https://formspree.io/tiki.sessions@gmail.com" method="POST">
+                            <div class="form-field">
+                                <label><i class="far fa-user"></i></label>
+                                <input name="Nombre" placeholder="Nombre" type="text" required />
+                            </div>
 
-		<script defer src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
-		<script defer src="js/jquery-ui.min.js"></script>
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-ui-timepicker-addon/1.6.3/jquery-ui-timepicker-addon.min.css">
-		<script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery-ui-timepicker-addon/1.6.3/jquery-ui-timepicker-addon.min.js"></script>
-		<script defer src="js/jquery-ui-sliderAccess.js"></script>
-		<script defer src="js/main.js"></script>
-	</body>
+                            <div class="form-field">
+                                <label><i class="far fa-user"></i></label>
+                                <input name="Apellido" placeholder="Apellido" type="text" required />
+                            </div>
+
+                            <div class="form-field">
+                                <label><i class="far fa-id-card"></i></label>
+                                <input name="DNI" placeholder="Numero de Dni" type="number" required />
+                            </div>
+
+                            <div class="form-field">
+                                <label><i class="fas fa-at"></i></label>
+                                <input name="Email" placeholder="Email" type="email" required />
+                            </div>
+
+                            <div class="form-field">
+                                <input type="submit" value="Enviar" />
+                            </div>
+
+                        </form>
+                    </div>
+                </div>    <!-- two-col -->
+
+            </div>
+        </div>
+        <script defer src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script defer src="/js/jquery-ui.min.js"></script>
+        <script defer src="/js/main.js"></script>
+    </body>
 </html>
