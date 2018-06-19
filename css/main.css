@@ -185,6 +185,7 @@ a {
   display: block;
   width: 30%;
   margin: auto;
+  margin-top: 0;
 }
 .main-title {
   font-size: 3rem;
