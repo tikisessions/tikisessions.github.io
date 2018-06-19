@@ -199,13 +199,13 @@ a {
   width: 100%;
 }
 .uploadcare--widget__button_type_open {
-    background: #3b4148;
-    cursor: pointer;
-    width: 100%;
-    border: none;
-    border-radius: 0;
-    font-size: 0.75rem;
-    text-align: left;
+  background: #3b4148;
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  border-radius: 0;
+  font-size: 0.75rem;
+  text-align: left;
 }
 
 .uploadcare--widget__button_type_open:focus,
@@ -368,7 +368,7 @@ input[type="submit"] {
 }
 
 .survey input[type="submit"] {
-  background-color: #ea4c88;
+  background-color: #ff2e65;
   color: #eee;
   font-weight: 700;
   text-transform: uppercase;
