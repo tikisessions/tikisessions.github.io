@@ -223,6 +223,7 @@ select {
   -ms-appearance: none;
   appearance: none;
   outline: 0;
+  padding: 1rem;
   box-shadow: none;
   border: 0 !important;
   background: #2c3e50;
